@@ -13,7 +13,7 @@ header
 
 main
 {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 50px auto;
   display: flex;
 }
@@ -26,10 +26,6 @@ main
   position: relative;
   background-color: #eee;
 }
-
-/* .step-box:last-child {
-  margin-right: 0;
-} */
 
 .step-img1
 {
@@ -79,7 +75,6 @@ footer
 {
   main
   {
-    width: 90%;
     display: block;
   }
 

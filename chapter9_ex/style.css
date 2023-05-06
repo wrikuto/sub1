@@ -10,7 +10,8 @@ header {
 }
 
 main {
-  width: 960px;
+  /* width: 90%; */
+  max-width: 960px;
   margin: 50px auto;
   display: flex;
 }
@@ -23,9 +24,9 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
+/* .step-box:last-child {
   margin-right: 0;
-}
+} */
 
 .step-img1 {
   height: 150px;
@@ -63,4 +64,18 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media (max-width: 768px) {
+  main
+  {
+    width: 90%;
+    display: block;
+  }
+
+  .step-box
+  {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
